@@ -7,8 +7,7 @@ Estructura básica con buscador centrado.
   <input type="text" placeholder="Buscar...">
 </main>
 <footer>FOOTER</footer>
-
-🔎 Coincidencia estimada: 90%
+Coincidencia estimada: 90%
 
  YouTube
 
@@ -128,7 +127,7 @@ Plataforma de streaming con secciones y cards.
   </section>
 </main>
 <footer>FOOTER</footer>
-🔎 Coincidencia estimada: 80%
+ Coincidencia estimada: 80%
  ESPN
 Contenido deportivo con videos.
 <header>HEADER</header>
@@ -151,5 +150,4 @@ Las diferencias principales están en:
 Uso de sidebars
 Tipo de contenido (videos, imágenes, artículos)
 Organización interna
-
 Promedio de coincidencia: 75%
