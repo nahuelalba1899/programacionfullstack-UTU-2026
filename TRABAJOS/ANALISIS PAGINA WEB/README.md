@@ -7,11 +7,8 @@ Estructura básica con buscador centrado.
   <input type="text" placeholder="Buscar...">
 </main>
 <footer>FOOTER</footer>
-Coincidencia estimada: 90%
 
  YouTube
-
-Estructura con sidebar y contenido principal.
 
 <header>HEADER</header>
 <nav>NAVBAR</nav>
@@ -23,11 +20,7 @@ Estructura con sidebar y contenido principal.
 </main>
 <footer>FOOTER</footer>
 
- Coincidencia estimada: 75%
-
  Wikipedia
-
-Página basada en artículos con menú lateral.
 
 <header>HEADER</header>
 <nav>NAVBAR</nav>
@@ -36,13 +29,8 @@ Página basada en artículos con menú lateral.
   <article>Contenido</article>
 </main>
 <footer>FOOTER</footer>
-
- Coincidencia estimada: 80%
-
  Nivel 2
  Amazon
-
-Estructura de tienda con productos y filtros.
 
 <header>HEADER</header>
 <nav>NAVBAR</nav>
@@ -53,12 +41,7 @@ Estructura de tienda con productos y filtros.
   </section>
 </main>
 <footer>FOOTER</footer>
-
- Coincidencia estimada: 70%
-
 Instagram
-
-Contenido basado en imágenes (posts).
 
 <header>HEADER</header>
 <main>
@@ -68,13 +51,7 @@ Contenido basado en imágenes (posts).
 </main>
 <aside>PERFIL</aside>
 <footer>FOOTER</footer>
-
- Coincidencia estimada: 65%
-
  Netflix
-
-Contenido multimedia organizado en secciones.
-
 <header>HEADER</header>
 <nav>NAVBAR</nav>
 <main>
@@ -83,9 +60,6 @@ Contenido multimedia organizado en secciones.
   </section>
 </main>
 <footer>FOOTER</footer>
-
- Coincidencia estimada: 70%
-
  Nivel 3
  Mercado Libre
 Uso de divs y estructura compleja de productos.
@@ -102,9 +76,9 @@ Uso de divs y estructura compleja de productos.
 <aside>SIDEBAR</aside>
 <footer>FOOTER</footer>
 </div>
-Coincidencia estimada: 75%
+
 Reddit
-Contenido basado en posts y listas.
+
 <header>HEADER</header>
 <nav>NAV</nav>
 <main>
@@ -116,9 +90,8 @@ Contenido basado en posts y listas.
   </ul>
 </aside>
 <footer>FOOTER</footer>
-Coincidencia estimada: 70%
  Disney+
-Plataforma de streaming con secciones y cards.
+
 <header>HEADER</header>
 <nav>NAV</nav>
 <main>
@@ -127,9 +100,9 @@ Plataforma de streaming con secciones y cards.
   </section>
 </main>
 <footer>FOOTER</footer>
- Coincidencia estimada: 80%
+
  ESPN
-Contenido deportivo con videos.
+
 <header>HEADER</header>
 <nav>NAV</nav>
 <main>
@@ -139,7 +112,7 @@ Contenido deportivo con videos.
 </main>
 <aside>SIDEBAR</aside>
 <footer>FOOTER</footer>
- Coincidencia estimada: 75%
+
  Conclusión
 Todas las páginas comparten una estructura base:
 Header
@@ -150,4 +123,3 @@ Las diferencias principales están en:
 Uso de sidebars
 Tipo de contenido (videos, imágenes, artículos)
 Organización interna
-Promedio de coincidencia: 75%
