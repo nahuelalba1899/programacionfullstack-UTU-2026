@@ -1,0 +1,11 @@
+5
+
+Buen trabajo en general. Los dibujos están correctos y lográs identificar bien elementos como header, footer y sidebar.
+
+A mejorar: hay confusión entre main, section y article. Es importante diferenciarlos:
+
+main: corresponde al contenido principal de la página.
+section: agrupa contenido relacionado dentro de la página.
+article: representa contenido independiente que podría reutilizarse fuera del contexto (por ejemplo, una noticia o publicación).
+
+PD: Bajale un poco a la IA 😅
