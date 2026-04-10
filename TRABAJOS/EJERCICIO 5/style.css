@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    line-height: 2.0;
+}
+
+div.cajaroja {
+    background-color: #ff0000;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: inline-flex;ialign-items: center;
+}
+div.cajaazul {
+    background-color: #0000ff;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+div.cajaverde {
+    background-color: #00ff00;
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
