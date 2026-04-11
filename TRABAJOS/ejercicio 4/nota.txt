@@ -1,0 +1,8 @@
+
+3. 
+
+No agregaste las etiquetas `<header>`, `<main>` ni `<footer>`. Recordá que `<head>` y `<header>` son cosas diferentes: `<head>` es parte de la configuración del documento, mientras que `<header>` es un contenedor visible dentro de la página (por ejemplo: `<header>Mi cabecera</header>`).
+
+Lo mismo ocurre con `<footer>`, que debe agregarse como estructura visible al final de la página.
+
+Si bien realizaste correctamente las tres secciones (`<section>`), no aplicaste estilos diferentes a cada una como indicaba la consigna. 
