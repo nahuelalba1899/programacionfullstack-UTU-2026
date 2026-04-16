@@ -1,28 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 50px;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #ffffff;
-    line-height: 2.0;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white;
 }
 
-div.cajaroja {
-    background-color: #ff0000;
-    width: 200px;
-    height: 100px;
-    margin-bottom: 20px;
-    display: inline-flex;ialign-items: center;
+/* CAJAS */
+
+.contenedor-cajas {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 40px;
 }
-div.cajaazul {
-    background-color: #0000ff;
-    width: 200px;
-    height: 100px;
-    margin-bottom: 20px;
+
+.caja {
+  width: 160px;
+  height: 150px;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: 3px solid black;
 }
-div.cajaverde {
-    background-color: #00ff00;
-    width: 200px;
-    height: 100px;
-    margin-bottom: 20px;
+
+.rojo  { background-color: #f0513a; }
+.verde { background-color: #2e7d4f; }
+.azul  { background-color: #4878a8; }
+
+/* TARJETAS */
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 520px;
+}
+
+.tarjeta {
+  background-color: white;
+  border: 1px solid #cccccc;
+  border-left: 4px solid #4878a8;
+  padding: 18px 20px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.06);
+}
+
+.badge {
+  display: inline-block;
+  background-color: #4878a8;
+  color: white;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 3px;
+}
+
+.tarjeta h2 {
+  font-size: 26px;
+  color: #111111;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.tarjeta p {
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
 }
