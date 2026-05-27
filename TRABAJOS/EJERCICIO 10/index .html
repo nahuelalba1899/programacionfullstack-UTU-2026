@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicios JS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Ejercicios JavaScript</h1>
+
+  <hr>
+  <h2 id="titulo">DOM</h2>
+  <button onclick="cambiarTitulo()">Cambiar titulo</button>
+
+  <hr>
+  <p id="parrafo">Parrafo</p>
+  <button onclick="cambiarParrafo()">Cambiar parrafo</button>
+
+  <hr>
+  <img id="imagen" src="https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" width="120">
+  <br>
+  <button onclick="cambiarImagen()">Cambiar imagen</button>
+
+  <hr>
+  <input id="miInput" type="text" placeholder="Escribi algo">
+  <button onclick="mostrarMensaje()">Mostrar mensaje</button>
+
+  <hr>
+  <p id="texto1">Y SI CAMBIAMOS ESTE TEXTO?</p>
+  <button onclick="agregarClase()">Agregar clase</button>
+
+  <hr>
+  <p id="texto2" class="rojo">VUELVE NORMAL ESTE TEXTO</p>
+  <button onclick="quitarClase()">Quitar clase</button>
+
+  <hr>
+  <button onclick="modoOscuro()">Modo oscuro</button>
+
+  <hr>
+  <input id="itemInput" type="text" placeholder="Escribi un item">
+  <button onclick="agregarItem()">Agregar a la lista</button>
+  <ul id="lista"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
