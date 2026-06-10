@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+
+```
+<h1>Lista de Tareas</h1>
+
+<form id="escribirtarea">
+
+    <label for="nombre">NOMBRE:</label>
+    <input type="text" id="nombre" required>
+    <br><br>
+
+    <label for="email">EMAIL:</label>
+    <input type="email" id="email" required>
+    <br><br>
+
+    <label for="tarea">TAREA:</label>
+    <input type="text" id="tarea" required>
+    <br><br>
+
+    <button type="submit">Enviar</button>
+
+</form>
+
+<hr>
+
+<p>TOTAL: <strong id="total">0</strong></p>
+<p>COMPLETADAS: <strong id="completadas">0</strong></p>
+<p>PENDIENTES: <strong id="pendientes">0</strong></p>
+
+<button type="button" onclick="TODASTAREAS()">TODAS LAS TAREAS</button>
+<button type="button" onclick="TAREASCOMPLETADAS()">TAREAS COMPLETADAS</button>
+<button type="button" onclick="TAREASPENDIENTES()">TAREAS PENDIENTES</button>
+
+<button type="button" id="borrarTodo">BORRAR TODO</button>
+
+<hr>
+
+<ul id="listaTareas"></ul>
+
+<script src="script.js"></script>
+```
+
+</body>
+</html>
