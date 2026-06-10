@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi colección favorita</title>
+</head>
+<body>
+
+    <h1>Mi colección favorita</h1>
+
+    <p>Guardá tus videojuegos, películas y series favoritas.</p>
+
+    <button id="modo">Cambiar modo</button>
+
+    <h3>Elementos agregados: <span id="contador">0</span></h3>
+
+    <p id="error"></p>
+
+    <form id="formulario">
+
+        <input type="text" id="nombre" placeholder="Nombre">
+
+        <input type="text" id="descripcion" placeholder="Descripción">
+
+        <select id="tipo">
+            <option value="Videojuego">Videojuego</option>
+            <option value="Película">Película</option>
+            <option value="Serie">Serie</option>
+        </select>
+
+        <select id="estado">
+            <option value="Pendiente">Pendiente</option>
+            <option value="En progreso">En progreso</option>
+            <option value="Terminado">Terminado</option>
+        </select>
+
+        <input type="number" id="calificacion" min="1" max="5" placeholder="1 a 5">
+
+        <input type="text" id="imagen" placeholder="URL imagen">
+
+        <button type="submit">Agregar</button>
+
+    </form>
+
+    <br>
+
+    <select id="filtro">
+        <option value="Todos">Todos</option>
+        <option value="Videojuego">Videojuego</option>
+        <option value="Película">Película</option>
+        <option value="Serie">Serie</option>
+    </select>
+
+    <hr>
+
+    <div id="tarjetas"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
